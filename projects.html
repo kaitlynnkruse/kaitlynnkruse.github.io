@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Kaitlynn Kruse Portfolio</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/Kaitlynn-Kruse-Portfolio.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="kaitlynn_kruse_portfolio.html">Kaitlynn Kruse</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="kaitlynn_kruse_portfolio.html">About</a>
+                    </li>
+                    <li>
+                        <a href="resume.html">Resume</a>
+                    </li>
+                    <li>
+                        <a href="work_experience.html">Work Experience</a>
+                    </li>
+                    <li>
+                        <a href="senior_design.html">Senior Design</a>
+                    </li>                    
+                    <li>
+                        <a href="projects.html">Projects</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Projects
+                    <small></small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Project One -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x300" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Fit Squared Application and Website</h3>
+                <p>This is a Android app that consists of many two main components: food and fitness tracking. The fitness 
+                component has the capability to track a users workout and give statistics for the user about their run. The
+                nutrition component includes a feature to scan food labels and give the user information regarding the label.
+                The components come together in a daily/weekly/monthly statistics view for the user. The last main feature of
+                the application is a challenge, the user can challenge another person to a specific workout by sending a request.
+                The Android application is paired with a website for convienient viewing of all the fitness and nutrition statistics. For the design of the Android app there was a database server connection to access the necessary user and food/exercise information. The website utilized php for the database server connection and the overall design. This website was supplementary to the Android application so that the user was able to view the maps of the runs and a more detailed overview of the nutrition and exercise statistics that were obtained from the user. The website also included a more overview of the challenge aspect of the project. The user could see the different challenges that they are a part of as well as their current and top lists of friends. There was signifigant amounts of database manipulation to make some of these aspects of the project work, which has been useful in the overall understanding and usage of database server systems in applications. </p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Two -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x300" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>"Mars Rover" Robot</h3>
+                <p>This project was to program a robot to be able to navigate through an obstacle course. The obstacle
+                course consisted of a border and objects and pits to avoid. This project was coded in C using AVR Studio. The iRobot Create had to avoid contact with specific objects, avoid holes in the ground, and stay within a bounded area. The commands to the iRobot were sent over Bluetooth to handle all of these cases. The end zone had to be detectable by the iRobot by means of it knowing it is between four pillars. The attachments that were used with the iRobot to create this program were sonar, ir sensors, servo, and LCD. Signals had to be set to begin the obstacle course and determine end zone. The users of this iRobot were fully dependent on the attachments used to determine the next course of action. The sensors detemined if there were obstructions ahead or if forward movement was ok. The sonar was used to determine locations and distances from obstructions. From here the program determined if the endzone was near, obstructions lay ahead, or it was safe to move forward. The ir sensor was utilized to determine whether or not the iRobot was within the required bounds. This embedded systems project was a good opportunity to learn about embedded systems and the design of embedded system programs. </p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Project Three -->
+        <div class="row">
+            <div class="col-md-7">
+                <a href="#">
+                    <img class="img-responsive" src="http://placehold.it/700x300" alt="">
+                </a>
+            </div>
+            <div class="col-md-5">
+                <h3>Register File</h3>
+                <p>This is the design of a 4-bit wide 16-register file. This was implemented on an Altera DE2 Board. The board
+                accepts manual inputs from the boards' switches for the read address, write register address, write data, and write enable. The outputs are to the 7-segment displays available on the Altera DE2 Board. The design for this project included the wiring and design of the register file. This included many tests throughout the design to ensure as components were added they worked as to make sure not to break existing work. The user for this program owould set the write enable, write register address, and write data then check that it is correctly being set and read within the appropriate read address. </p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Kaitlynn Kruse 2015</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
